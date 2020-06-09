@@ -28,5 +28,6 @@ WHILE nums > 0 REPEAT
     LET c = a + b
     LET a = b
     LET b = c
+    LET nums = nums - 1
 ENDWHILE	
 ```
